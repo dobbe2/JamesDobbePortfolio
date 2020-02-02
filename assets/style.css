@@ -1,0 +1,100 @@
+body {
+  font-family: 'Cagliostro';
+}
+
+.header-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+  
+.header-item {
+  float: left;
+}
+
+.header-list a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.header-list a:hover {
+  background-color: #111;
+}
+
+#port-image {
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 50%; */
+  min-width: 200px;
+  max-width: 250px;
+  padding-top: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.personal-link {
+  color: black;
+}
+
+h2 {
+  text-align: center;
+  margin: 40px 0px 200px 0px;
+}
+
+.card {
+  display: inline-block;
+  justify-content: center;
+  flex-direction: row;
+  width: 45%;
+  margin: 10px;
+}
+
+.card .left {
+  column-width: 45%;
+  float: left;
+}
+
+.card .right {
+  column-width: 45%;
+  float: right;
+}
+
+@media screen and (max-width: 780px) {
+  .card {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    float: none;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
