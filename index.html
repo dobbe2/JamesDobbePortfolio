@@ -9,54 +9,64 @@
     <title>Portfolio</title>
 </head>
 <body>
-    <ul class="header-list">
-        <li class="header-item"><a class="active" href="#home">Home</a></li>
-        <li class="header-item"><a href="portfolio.html">Portfolio</a></li>
-        <li class="header-item"><a href="contact.html">Contact</a></li>
-        <li class="header-item"><a href="#about">About</a></li>
-        <li class="header-item" style="float:right"><a>James Dobbe</a></li>
-    </ul>
+    <!-- <div class="background" ><img src="assets/images/chill-background.png"></div> -->
+    <header>
+        <ul class="header-list">
+            <li class="header-item"><a class="active" href="index.html">Home</a></li>
+            <li class="header-item"><a href="portfolio.html">Portfolio</a></li>
+            <li class="header-item"><a href="contact.html">Contact</a></li>
+            <li class="header-item"><a href="about.html">About</a></li>
+            <li class="header-item" style="float:right"><a>James Dobbe</a></li>
+        </ul>
+    </header>
       <div id="port-image"><img src="assets/images/portfolio-pic.png" id="port-image"></div>
-    <div class="title"><h2>Hi, my name is James Dobbe,<br> and I'm a web developer. </h2></div>
+    <div class="title"><h2 id="intro">Hi, my name is James Dobbe,<br> and I'm a web developer. </h2></div>
 
     <div class="container">
-        <div class="card left"><a href="portfolio.html" class="personal-link">
+        <div class="card-main left"><a href="portfolio.html" class="personal-link">
             <img src="assets/images/pacman.png" alt="pac-man" style="width: 100%">
             <div class="container">
-                <h3><b>Check out my Projects</b></h3>
+                <h3><p>Check out my Projects</p></h3>
             
             </div></a>
         </div>
 
-        <div class="card right"><a href="#about" class="personal-link">
+        <div class="card-main right"><a href="#about" class="personal-link">
             <img src="assets/images/male3.png" alt="male-avatar" style="width: 100%">
             <div class="container">
-                <h3><b>Check me out</b></h3>
+                <h3><p>Check me out</p></h3>
             
             </div></a>
         </div>
     </div>
 
     <div class="container">
-        <div class="card left"><a href="https://github.com/dobbe2" class="personal-link">
+        <div class="card-main left"><a href="https://github.com/dobbe2" class="personal-link">
             <img src="assets/images/git-hub-2.png" alt="git-hub" style="width: 100%">
             <div class="container">
-                <h3><b>Check out my GitHub</b></h3>
+                <h3><p>Check out my GitHub</p></h3>
             
             </div></a>
         </div>
 
-        <div class="card right"><a href="https://www.linkedin.com/in/james-dobbe-622929194/" class="personal-link">
+        <div class="card-main right"><a href="https://www.linkedin.com/in/james-dobbe-622929194/" class="personal-link">
             <img src="assets/images/linkedin.png" alt="linkedin" style="width: 100%">
             <div class="container">
-                <h3><b>Check out my Linkedin</b></h3>
+                <h3><p>Check out my Linkedin</p></h3>
             
             </div></a>
         </div>
     </div>
+    <footer id="footer">
+        <img src="assets/images/chill-background.png" alt="footer" id="footer-image">
+        &copy; Copyright 2020 James Dobbe Designs
 
+    </footer>
     
-
+<!--JQuery-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<!--local JS-->
+<script src="script.js"></script>
     
 </body>
 </html>

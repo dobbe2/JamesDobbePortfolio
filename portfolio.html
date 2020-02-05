@@ -9,13 +9,107 @@
     <title>Portfolio</title>
 </head>
 <body>
-    <ul>
-        <li><a class="active" href="#home">Home</a></li>
-        <li><a href="#news">Portfolio</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="#about">About</a></li>
-        <li style="float:right"><a>James Dobbe</a></li>
-    </ul>
+    <header>
+        <ul class="header-list">
+            <li class="header-item"><a  href="index.html">Home</a></li>
+            <li class="header-item"><a class="active" href="portfolio.html">Portfolio</a></li>
+            <li class="header-item"><a href="contact.html">Contact</a></li>
+            <li class="header-item"><a href="about.html">About</a></li>
+            <li class="header-item" style="float:right"><a>James Dobbe</a></li>
+        </ul>
+    </header>
 
+    <h1 id="port-title">My Portfolio</h1>
+
+    <div class="cards-list">
+  
+        <div class="card 1">
+          <div class="card_image"> <img src="assets/images/localtunesIcon2.png" /> </div>
+          <div class="card_title title-black">
+            <p>Local Tunes</p>
+          </div>
+        </div>
+        
+          <div class="card 2">
+          <div class="card_image">
+            <img src="assets/images/weather3.png" />
+            </div>
+          <div class="card_title title-black">
+            <p>Weather Dashboard</p>
+          </div>
+        </div>
+        
+        <div class="card 3">
+          <div class="card_image">
+            <img src="assets/images/calendar.png" />
+          </div>
+          <div class="card_title">
+            <p>Day Planner</p>
+          </div>
+        </div>
+        
+        </div>
+
+<!-- 
+    <div class="port-card" >
+        <img src="assets/images/localtunesIcon2.png" alt="local-tunes" style="width: 100%;" id="local-tunes-icon">
+
+        <div class="port-description" id="local-tunes-port">
+            
+            
+                <h3 id="local-tunes-info"><p>Local Tunes</p></h3>
+            <h3><a href="https://kindrakinney.github.io/Local-Tunes/" class="personal-link">Visit Application</h3>
+            </div></a>
+        </div>
+
+        <div class="port-card"><a href="#about" class="personal-link">
+            <img src="assets/images/weatherIcon2.png" alt="weather-icon" style="width: 100%" id="weather-icon">
+            <div class="container">
+                <h3><p>Weather Dashboard</p></h3>
+            
+            </div></a>
+        </div>
+    </div> -->
+    <!-- <div class="container">
+        <div class="port-1">
+            <div class="card left" id="localTunesPort"><a href="https://kindrakinney.github.io/Local-Tunes/" class="personal-link">
+                <img src="assets/images/localTunes.png" alt="localTunes" style="width: 100%">
+                <div class="container">
+                    <h3><p>LocalTunes</p></h3>
+                
+                </div></a>
+            </div>
+            <p class="card right" >Local Tunes is a music aggregation tool for each country's top tracks based off of user location, or user input.
+                <br>This was done as a group project with classmates. 
+                <br>With Local Tunes, you are able to get a stylized list of top songs from either your current location, or from foriegn counties.
+                <br>It uses Material.io (A CSS Framework), Google Maps API, MusixMatch API, and Last.FM API.
+            </p>
+        </div>
+
+        <div class="port-2">
+            <div class="card left"><a href="#about" class="personal-link">
+                <img src="assets/images/male3.png" alt="male-avatar" style="width: 100%">
+                <div class="container">
+                    <h3><p>Check me out</p></h3>
+                </div></a>
+            </div>
+            <p class="card right">Local Tunes is a music aggregation tool for each country's top tracks based off of user location, or user input.
+                <br>This was done as a group project with classmates. 
+                <br>With Local Tunes, you are able to get a stylized list of top songs from either your current location, or from foriegn counties.
+                <br>It uses Material.io (A CSS Framework), Google Maps API, MusixMatch API, and Last.FM API.
+            </p>
+            
+        </div>
+    </div> -->
+
+    <footer id="footer">
+        <img src="assets/images/chill-background.png" alt="footer" id="footer-image">
+        &copy; Copyright 2020 James Dobbe Designs
+
+    </footer>
+<!--JQuery-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<!--local JS-->
+<script src="script.js"></script>
     </body>
     </html>
