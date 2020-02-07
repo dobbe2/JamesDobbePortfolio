@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 /*font*/
 body {
   font-family: 'Cagliostro';
@@ -14,6 +18,10 @@ body {
   
 .header-item {
   float: left;
+}
+
+.header-item-right{
+  float: right;
 }
 
 .header-list a {
@@ -38,14 +46,22 @@ h2 {
   text-align: center;
   font-size: 2em;
 }
+
+h3 {
+  text-align: center;
+}
+
+h4 {
+  text-align: center;
+}
 #port-image {
+  border: 10px solid #333;
   border-radius: 50%;
   display: block;
   margin-left: auto;
   margin-right: auto;
   min-width: 200px;
   max-width: 250px;
-  padding-top: 20px;
   margin-top: 50px;
   margin-bottom: 50px;
 }
@@ -63,8 +79,10 @@ h2 {
 
 }
 
-a {
-  text-decoration: none;
+.para {
+  width: 80%;
+  text-align: center;
+  margin: auto;
 }
 
 p {
@@ -76,7 +94,7 @@ p {
 
 #intro {
   text-align: center;
-  margin: 40px 0px 200px 0px;
+  margin: 40px 0px 60px 0px;
 }
 
 #footer-image {
@@ -84,8 +102,6 @@ p {
   height: 300px;
   background-size: 100% 100%;
   margin-bottom: -60px;
-  /* margin-left: -10px; */
-
 }
 
 #about-image {
