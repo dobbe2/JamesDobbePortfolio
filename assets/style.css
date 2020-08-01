@@ -55,6 +55,11 @@ h4 {
   text-align: center;
 }
 #port-image {
+  transition: 1.5s;
+  -webkit-transition: 01.5s;
+  -moz-transition: 01.5s;
+  -ms-transition: 01.5s;
+  -o-transition: 01.5s;
   border: 10px solid #333;
   border-radius: 50%;
   display: block;
@@ -64,6 +69,19 @@ h4 {
   max-width: 250px;
   margin-top: 50px;
   margin-bottom: 50px;
+}
+
+#port-image:hover {
+  transition: 1.5s;
+  -webkit-transition: 01.5s;
+  -moz-transition: 01.5s;
+  -ms-transition: 01.5s;
+  -o-transition: 01.5s;
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  transform: rotate(360deg);
 }
 
 .card {
