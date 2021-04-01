@@ -114,6 +114,19 @@ p {
 .personal-link {
   color: black;
   text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+.personal-link:hover {
+  text-decoration: underline;
+}
+
+.home-link {
+  color: black;
+  text-decoration: none;
+  display: block;
+  text-align:center;
 }
 
 .personal-link-text{
