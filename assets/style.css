@@ -103,6 +103,9 @@ h4 {
   margin: auto;
 }
 
+.about-para {
+  text-align: justify;
+}
 p {
   text-align: center;
 }
