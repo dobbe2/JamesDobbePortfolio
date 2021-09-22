@@ -25,28 +25,30 @@
         </button>
 
         <ul class="menu">
-            <li><a class="menuLink" href="#">Home</a></li>
-            <li><a class="menuLink" href="#">Portfolio</a></li>
-            <li><a class="menuLink" href="#">Contact</a></li>
-            <li><a class="menuLink" href="#">About</a></li>
+            <li><a class="menuLink" href="#Home">Home</a></li>
+            <li><a class="menuLink" href="#Portfolio">Portfolio</a></li>
+            <li><a class="menuLink" href="#About">About</a></li>
+            <li><a class="menuLink" href="#Contact">Contact</a></li>
         </ul>
 
         <ul class="header-list topnav" id="myTopnav">
             <li class="header-item-left"><a>James Dobbe</a></li>
-            <li class="link header-item-right"><a href="about.html">About</a></li>
-            <li class="link header-item-right"><a href="contact.html">Contact</a></li>
-            <li class="link header-item-right"><a href="portfolio.html">Portfolio</a></li>
-            <li class="link header-item-right"><a class="active" href="index.html">Home</a></li>
+            <li class="link header-item-right"><a href="#Contact">Contact</a></li>
+            <li class="link header-item-right"><a href="#About">About</a></li>
+            <li class="link header-item-right"><a href="#Portfolio">Portfolio</a></li>
+            <li class="link header-item-right"><a href="#Home">Home</a></li>
             
         </ul>
     </header>
-    <div>
-        <img src="assets/images/portfolio-pic.jpg" id="port-image">
-    </div>
+    <section id="Home">
+        <div id="port-div">
+            <img src="assets/images/portfolio-pic.jpg" id="port-image">
+        </div>
 
-    <div class="title">
-        <h2 id="intro">Hi, my name is James Dobbe,<br> and I'm a web developer. </h2>
-    </div>
+        <div class="title">
+            <h2 id="intro">Hi, my name is James Dobbe,<br> and I'm a web developer. </h2>
+        </div>
+    </section>
 
     <div class="cards-list">
         <div class="card left"><a href="portfolio.html" class="home-link">
@@ -75,139 +77,177 @@
     </div>
 
     <br>
-    <h1>My Projects</h1>
 
-    <div class="cards-list">
+    <section id="Portfolio">
+        <div id="project-div">
+            <h1>My Projects</h1>
+        </div>
+        <div class="cards-list">
 
-        <div class="card-link">
-            <div class="card 2 project_card">
-                <div class="card_image"><a href="https://leebrannamconstruction.com/" target="_blank"><img src="assets/images/brannam-site.png" style="width: 100%" /></a>
+            <div class="card-link">
+                <div class="card 2 project_card">
+                    <div class="card_image"><a href="https://leebrannamconstruction.com/" target="_blank"><img src="assets/images/brannam-site.png" style="width: 100%" /></a>
+                    </div>
                 </div>
-            </div>
-            <h2>Construction Website</h2>
-            <br>
-            <a href="https://leebrannamconstruction.com/" class="personal-link port-link">
-                <p>Visit Website</p></a>
+                <h2>Construction Website</h2>
                 <br>
-            <a href="https://leebrannamconstruction.com/" class="personal-link port-link"><p>Inspect Source Code</p></a>
-            <br>
-            <p class="description">Complete web page built for a local construction company. Built to showcase current projects. Worked with the client to create a new brand for his business, including color scheme, logo, and branding verbiage.</p>
-        </div>
+                <a href="https://leebrannamconstruction.com/" class="personal-link port-link">
+                    <p>Visit Website</p></a>
+                    <br>
+                <a href="https://leebrannamconstruction.com/" class="personal-link port-link"><p>Inspect Source Code</p></a>
+                <br>
+                <p class="description">Complete web page built for a local construction company. Built to showcase current projects. Worked with the client to create a new brand for his business, including color scheme, logo, and branding verbiage.</p>
+            </div>
 
-        <div class="card-link">
-            <div class="card 6 project_card"> 
-                <div class="card_image"><a href="https://gorambler.herokuapp.com/" target="_blank"><img src="assets/images/rambler-square.jpg"  style="width: 100%"/></a> 
+            <div class="card-link">
+                <div class="card 6 project_card"> 
+                    <div class="card_image"><a href="https://gorambler.herokuapp.com/" target="_blank"><img src="assets/images/rambler-square.jpg"  style="width: 100%"/></a> 
+                    </div>
                 </div>
+                <h2>Rambler</h2>
+                <br>
+                <a href="https://gorambler.herokuapp.com/" class="personal-link port-link">
+                <p>Visit Application</p> </a>
+                <br>
+                <a href="https://github.com/dhens/Rambler" class="personal-link port-link">GitHub repository</a>
+                <br>
+                <p class="description">Rambler is an app that is built with the average person in mind. This app is designed not only as a resource for searching new hiking trail destinations, but also serves as a visual dashboard displaying previously completed and future user generated hike data.</p>
             </div>
-            <h2>Rambler</h2>
-            <br>
-            <a href="https://gorambler.herokuapp.com/" class="personal-link port-link">
-            <p>Visit Application</p> </a>
-            <br>
-            <a href="https://github.com/dhens/Rambler" class="personal-link port-link">GitHub repository</a>
-            <br>
-            <p class="description">Rambler is an app that is built with the average person in mind. This app is designed not only as a resource for searching new hiking trail destinations, but also serves as a visual dashboard displaying previously completed and future user generated hike data.</p>
-        </div>
 
-        <div class="card-link">
-            <div class="card 1 project_card"> 
-                <div class="card_image"><a href="https://kindrakinney.github.io/Local-Tunes/" target="_blank"><img src="assets/images/local-tunes-square.jpg"  style="width: 100%"/></a> 
+            <div class="card-link">
+                <div class="card 1 project_card"> 
+                    <div class="card_image"><a href="https://kindrakinney.github.io/Local-Tunes/" target="_blank"><img src="assets/images/local-tunes-square.jpg"  style="width: 100%"/></a> 
+                    </div>
                 </div>
+                <h2>Local Tunes</h2>
+                <br>
+                <a href="https://kindrakinney.github.io/Local-Tunes/" class="personal-link port-link">
+                Visit Application</a>
+                <br>
+                <a href="https://github.com/KindraKinney/Local-Tunes" class="personal-link port-link"><p>GitHub repository</p></a>
+                <br>
+                <p class="description">Discover what is the most listened to music tracks locally, or around the world. You can use the results to learn more about popular artists and music tracks. </p>
             </div>
-            <h2>Local Tunes</h2>
+
+            <div class="card-link">
+                <div class="card 5 project_card">
+                    <div class="card_image"><a href="https://intense-beach-33729.herokuapp.com" target="_blank"><img src="assets/images/PAR.png" style="width: 100%;" /></a>
+                    </div>  
+                </div>
+                <h2>P.A.R.</h2>
+                <br>
+                <a href="https://intense-beach-33729.herokuapp.com" class="personal-link port-link">
+                <p>Visit Application</p> </a>
+                <br>
+                <a href="https://github.com/dhens/Paranormal-Activity-Reporter" class="personal-link port-link"><p>GitHub repository</p></a>
+                <br>
+                <p class="description">A site where users can discuss and contemplate on the unnatural wonders and the conspiracies of the world, from Sasquatch and Aliens to Chem Trails and everything in between.</p>
+            </div>
+
+            <div class="card-link">
+                <div class="card 3 project_card">
+                    <div class="card_image"><a href="https://dobbe2.github.io/baseballScoreboard/" target="_blank"><img src="assets/images/baseballScoreboard.png" style="width: 100%;" /></a>
+                    </div>  
+                </div>
+                <h2>Baseball Scoreboard</h2>
+                <br>
+                <a href="https://dobbe2.github.io/baseballScoreboard/" class="personal-link port-link">
+                <p>Visit Application</p> </a>
+                <br>
+                <a href="https://github.com/dobbe2/baseballScoreboard" class="personal-link port-link"><p>GitHub repository</p></a>
+                <br>
+                <p class="description">A responsive, interactive baseball scoreboard. Choose your favorite MLB teams, and go head to head choosing your pitches and swings.</p>
+            </div>
+
+            <div class="card-link">
+                <div class="card 4 project_card">
+                    <div class="card_image"><a href="https://whispering-fortress-69757.herokuapp.com/" target="_blank"><img src="assets/images/burgerApp.jpg" style="width: 100%;" /></a>
+                    </div>  
+                </div>
+                <h2>Eat Da Burger!</h2>
+                <br>
+                <a href="https://whispering-fortress-69757.herokuapp.com/" class="personal-link port-link">
+                <p>Visit Application</p> </a>
+                <br>
+                <a href="https://github.com/dobbe2/burger" class="personal-link port-link"><p>GitHub repository</p></a>
+                <br>
+                <p class="description">A fun burger eating app that lets you create, devour, and delete burgers. They are stored in a SQL database.</p>
+            </div>
+        </div>
+    </section>
+
+    <br>
+
+    <section id="About">
+        <div id="resume">
+            <h3>
+                <p>
+                    <a href="https://drive.google.com/file/d/1r21VTEbUEav51YybimglNU-zcpkTrj2b/view?usp=sharing" target="_blank" class="personal-link">
+                        Click here for My Resume
+                    </a>
+                </p>
+            </h3>    
+        </div>
+        
+        <h1>Who I am</h1>
+        <br>
+        <div id="about-paragraph">
+            <p class="about-para">
+                My name is James Dobbe, and I am a Junior Front End Web Developer with a background in creative arts and management.  I have earned a certificate in Full Stack Development from the University of Washington.  I have learned to create dynamic apps using HTML and CSS, as well as skills in Javascript, Node.JS, and databases. My passion shines through in design, functionality, and efficiency.  Many of my projects I took the lead design role, creating polished and professional products.  I am looking for a place to launch my career in web development that will not only help me grow professionally, but allow me to contribute my unique styles and skills to their business.
+            </p>
             <br>
-            <a href="https://kindrakinney.github.io/Local-Tunes/" class="personal-link port-link">
-            Visit Application</a>
+            <p class="about-para">
+                I am currently managing an Italian Restaurant, overseeing the front of house, and running the Catering department. I have learned many skills here, most all of them related to customer service, multi tasking, and time management. I think a lot of the skills I have mastered from my time on the management team at my restaurant will carry over into my developing career.
+            </p>
             <br>
-            <a href="https://github.com/KindraKinney/Local-Tunes" class="personal-link port-link"><p>GitHub repository</p></a>
+            <p class="about-para">
+                My family is most important to me. I have a beautiful wife, Becky, a 3 year old son, Cruz, a 14 year old daughter, Morgan, and a 1 year old girl, Haven. We have a tabby cat, Apollo, and we have an Australian Shepard/Border Collie mix named Lucy. Some of my hobbies include playing piano and guitar, pyrography (wood burning), snowboarding, playing retro video games, going to Seattle Mariners games, and making pizzas.
+            </p>
             <br>
-            <p class="description">Discover what is the most listened to music tracks locally, or around the world. You can use the results to learn more about popular artists and music tracks. </p>
         </div>
 
-        <div class="card-link">
-            <div class="card 5 project_card">
-                <div class="card_image"><a href="https://intense-beach-33729.herokuapp.com" target="_blank"><img src="assets/images/PAR.png" style="width: 100%;" /></a>
-                </div>  
-            </div>
-            <h2>P.A.R.</h2>
+        <img src="assets/images/familyPhotoPlusOne.jpg" id="about-image" alt="">
+
+        <div class="skills" style="text-align: center;">
             <br>
-            <a href="https://intense-beach-33729.herokuapp.com" class="personal-link port-link">
-            <p>Visit Application</p> </a>
-            <br>
-            <a href="https://github.com/dhens/Paranormal-Activity-Reporter" class="personal-link port-link"><p>GitHub repository</p></a>
-            <br>
-            <p class="description">A site where users can discuss and contemplate on the unnatural wonders and the conspiracies of the world, from Sasquatch and Aliens to Chem Trails and everything in between.</p>
+            <h2>My Skills</h2>
+            <ul><h3 class="skills_list">Browser Technologies</h3>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+                <li>Responsive Design</li>
+                <li>React.js</li>
+                <li>jQuery</li>
+                <li>WordPress</li>
+            </ul>
+            <ul><h3 class="skills_list">Other Technologies</h3>
+                <li>Visual Studio Code</li>
+                <li>MySQL</li>
+                <li>MongoDB</li>
+                <li>Postman</li>
+                <li>Github</li>
+            </ul>
         </div>
+    </section>
 
-        <div class="card-link">
-            <div class="card 3 project_card">
-                <div class="card_image"><a href="https://dobbe2.github.io/baseballScoreboard/" target="_blank"><img src="assets/images/baseballScoreboard.png" style="width: 100%;" /></a>
-                </div>  
-            </div>
-            <h2>Baseball Scoreboard</h2>
-            <br>
-            <a href="https://dobbe2.github.io/baseballScoreboard/" class="personal-link port-link">
-            <p>Visit Application</p> </a>
-            <br>
-            <a href="https://github.com/dobbe2/baseballScoreboard" class="personal-link port-link"><p>GitHub repository</p></a>
-            <br>
-            <p class="description">A responsive, interactive baseball scoreboard. Choose your favorite MLB teams, and go head to head choosing your pitches and swings.</p>
+    <section id="Contact">
+        <h3>
+            It would be great to hear from you!  Feel free to reach out!
+        </h3>
+        <br>
+        <h4>
+            Phone Number : 425-457-1617
+        </h4>
+        <br>
+        <h4>
+            <a href="mailto:dobbe2@gmail.com" class="personal-link">Email Address : dobbe2@gmail.com</a>
+        </h4>
+        <br>
+
+        <div class="container-form">
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe_J3KQrj_nF6-NuLuGiamKNhVelGkvAK3NAHXofC3kk4aYlg/viewform?embedded=true" width="100%" height="950px" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
         </div>
-
-        <div class="card-link">
-            <div class="card 4 project_card">
-                <div class="card_image"><a href="https://whispering-fortress-69757.herokuapp.com/" target="_blank"><img src="assets/images/burgerApp.jpg" style="width: 100%;" /></a>
-                </div>  
-            </div>
-            <h2>Eat Da Burger!</h2>
-            <br>
-            <a href="https://whispering-fortress-69757.herokuapp.com/" class="personal-link port-link">
-            <p>Visit Application</p> </a>
-            <br>
-            <a href="https://github.com/dobbe2/burger" class="personal-link port-link"><p>GitHub repository</p></a>
-            <br>
-            <p class="description">A fun burger eating app that lets you create, devour, and delete burgers. They are stored in a SQL database.</p>
-        </div>
-    </div>
-
-    <br>
-    <div id="resume"><h3><p><a href="https://drive.google.com/file/d/1r21VTEbUEav51YybimglNU-zcpkTrj2b/view?usp=sharing" target="_blank" class="personal-link">Click here for My Resume</div></a></h3></p>
-    <h1>Who I am</h1>
-    <br>
-    <div id="about-paragraph">
-    <p class="about-para">My name is James Dobbe, and I am a Junior Front End Web Developer with a background in creative arts and management.  I have earned a certificate in Full Stack Development from the University of Washington.  I have learned to create dynamic apps using HTML and CSS, as well as skills in Javascript, Node.JS, and databases. My passion shines through in design, functionality, and efficiency.  Many of my projects I took the lead design role, creating polished and professional products.  I am looking for a place to launch my career in web development that will not only help me grow professionally, but allow me to contribute my unique styles and skills to their business.
-    </p>
-    <br>
-    <p class="about-para">I am currently managing an Italian Restaurant, overseeing the front of house, and running the Catering department. I have learned many skills here, most all of them related to customer service, multi tasking, and time management. I think a lot of the skills I have mastered from my time on the management team at my restaurant will carry over into my developing career.
-    </p>
-    <br>
-    <p class="about-para">My family is most important to me. I have a beautiful wife, Becky, a 3 year old son, Cruz, a 14 year old daughter, Morgan, and a 1 year old girl, Haven. We have a tabby cat, Apollo, and we have an Australian Shepard/Border Collie mix named Lucy. Some of my hobbies include playing piano and guitar, pyrography (wood burning), snowboarding, playing retro video games, going to Seattle Mariners games, and making pizzas.
-    </p>
-    <br>
-    </div>
-
-    <img src="assets/images/familyPhotoPlusOne.jpg" id="about-image" alt="">
-<div class="skills" style="text-align: center;">
-    <br>
-        <h2>My Skills</h2>
-        <ul><h3 class="skills_list">Browser Technologies</h3>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>Javascript</li>
-            <li>Responsive Design</li>
-            <li>React.js</li>
-            <li>jQuery</li>
-            <li>WordPress</li>
-        </ul>
-        <ul><h3 class="skills_list">Other Technologies</h3>
-            <li>Visual Studio Code</li>
-            <li>MySQL</li>
-            <li>MongoDB</li>
-            <li>Postman</li>
-            <li>Github</li>
-        </ul>
-    </div>
-
+    </section>
     <footer id="footer">
         <img src="assets/images/chill-background.jpg" alt="footer" id="footer-image">
         <p class="footer">&copy; Copyright 2021 James Dobbe Designs</p>
@@ -215,7 +255,7 @@
     </footer>
     
     <!--JQuery-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
     <!--local JS-->
     <script src="script.js"></script>
     
