@@ -3,6 +3,7 @@ let ham = document.querySelector(".ham");
 let xIcon = document.querySelector(".xIcon");
 let menuIcon = document.querySelector(".menuIcon");
 
+//hamburger menu for mobile screens
 ham.addEventListener("click", toggleMenu);
 
 function toggleMenu() {

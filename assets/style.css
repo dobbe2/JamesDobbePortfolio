@@ -6,6 +6,7 @@
 html {
   scroll-behavior: smooth;
 }
+
 /*font*/
 body {
   font-family: 'Lato', sans-serif;
@@ -38,7 +39,9 @@ header {
 
 .menuLink:hover{
   transform: scale(1.1);
+  text-decoration: underline;
 }
+
 /*header- navbar*/
 @media (max-width: 600px){
   .ham{
@@ -192,6 +195,7 @@ h4 {
 .about-para {
   text-align: justify;
 }
+
 p {
   text-align: center;
 }
@@ -322,7 +326,6 @@ input[type=submit]:hover {
   margin-right: auto;
   border: 2px solid black;
 }
-
 
 .description {
   max-width: 250px;
