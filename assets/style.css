@@ -160,7 +160,7 @@ h4 {
   -moz-transition: 01.5s;
   -ms-transition: 01.5s;
   -o-transition: 01.5s;
-  border: 10px solid #333;
+  border: 10px solid #000000;
   border-radius: 50%;
   display: block;
   margin-left: auto;
@@ -184,6 +184,10 @@ h4 {
 #port-image:hover {
   transition: .5s;
   transform: scale(1.1, 1.1);
+}
+
+#about-container {
+  display: flex;
 }
 
 #about-paragraph {
@@ -264,7 +268,7 @@ p {
   border-radius: 150px;
   transition: 0.4s;
   box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
-  margin: 35px auto;
+  margin: 35px 10px;
   width: 300px;
   height: 300px;
   cursor: pointer;
@@ -283,12 +287,12 @@ p {
 .card .card_image img {
   width: inherit;
   height: inherit;
-  border-radius: 40px;
+  border-radius: 16px;
   object-fit: cover;
 }
 
 .card:hover {
-  transform: scale(1.1, 1.1);
+  transform: scale(1.02, 1.02);
   box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25), 
     -5px -5px 30px 15px rgba(0,0,0,0.22);
 }
