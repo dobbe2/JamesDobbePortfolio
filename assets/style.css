@@ -23,7 +23,7 @@ header {
   z-index: 99;
 }
 
-.menu, .ham {
+.menu, .nav-bar {
   display: none;
 }
 
@@ -37,14 +37,14 @@ header {
   transition: all .2s ease-in-out;
 }
 
-.menuLink:hover{
+.menuLink:hover {
   transform: scale(1.1);
   text-decoration: underline;
 }
 
 /*header- navbar*/
 @media (max-width: 600px){
-  .ham{
+  .nav-bar{
     display: block;
     position: fixed;
     z-index: 101;
@@ -104,7 +104,7 @@ header {
   float: left;
 }
 
-.header-item-right{
+.header-item-right {
   float: right;
 }
 
@@ -146,11 +146,11 @@ h4 {
   padding: 5px 0 0;
 }
 
-#project-div{
+#project-div {
   padding: 40px 0 10px;
 }
 
-#Contact {
+#contact {
   padding: 45px 0 0 0;
 }
 
@@ -186,10 +186,6 @@ h4 {
   transform: scale(1.1, 1.1);
 }
 
-#about-container {
-  display: flex;
-}
-
 #about-paragraph {
   width: 80%;
   text-align: center;
@@ -204,8 +200,9 @@ p {
   text-align: center;
 }
 
-.round{
+.link-image {
   border-radius: 50%;
+  width: 100%;
 }
 
 .personal-link {
@@ -275,17 +272,17 @@ p {
   cursor: pointer;
 }
 
-.project_card{
+.project-card {
   border-radius: 40px;
 }
 
-.card .card_image {
+.card .card-image {
   width: inherit;
   height: inherit;
   border-radius: 40px;
 }
 
-.card .card_image img {
+.card .card-image img {
   width: inherit;
   height: inherit;
   border-radius: 16px;
@@ -335,12 +332,27 @@ input[type=submit]:hover {
   box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
 }
 
+#about-grid {
+  display: grid;
+  grid-auto-flow: row;
+}
+
 .description {
   max-width: 250px;
   margin: auto;
 }
 
-.skills_list{
+@media screen and (min-width: 992px) {
+  #about-grid {
+    grid-auto-flow: column;
+  }
+}
+
+.skills {
+  text-align: center;
+}
+
+.skills-list {
   text-decoration: underline;
   margin: 10px;
 }
