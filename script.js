@@ -1,5 +1,5 @@
 let menu = document.querySelector(".menu");
-let ham = document.querySelector(".ham");
+let ham = document.querySelector(".nav-bar");
 let xIcon = document.querySelector(".xIcon");
 let menuIcon = document.querySelector(".menuIcon");
 
