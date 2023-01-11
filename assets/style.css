@@ -177,18 +177,27 @@ h4 {
   /* animation: fadeIn 2s; */
 }
 
-@keyframes fadeIn {
+/* @keyframes fadeIn {
   from {
     transform: scale(0);
   }
   to {
     transform: scale(1)
   }
-}
+} */
 
 #port-image:hover {
   transition: .5s;
   transform: scale(1.1, 1.1);
+}
+
+@keyframes slideInFromBottom {
+  0% {
+    transform: translateY(100%);
+  }
+  100%{
+    transform: translateY(0);
+  }
 }
 
 #about-paragraph {
@@ -262,6 +271,7 @@ p {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  animation: 1s ease-out 0s 1 slideInFromBottom;
 }
 
 .card {
