@@ -191,7 +191,9 @@ h4 {
   transform: scale(1.1, 1.1);
 }
 
-@keyframes slideInFromBottom {
+/* animation for link circles to come from the bottom of screen, a little buggy if loading from lower sections */
+
+/* @keyframes slideInFromBottom {
   0% {
     transform: translateY(100%);
   }
@@ -199,6 +201,10 @@ h4 {
     transform: translateY(0);
   }
 }
+
+.links {
+  animation: 1s ease-out 0s 1 slideInFromBottom;
+} */
 
 #about-paragraph {
   width: 80%;
@@ -271,7 +277,6 @@ p {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  animation: 1s ease-out 0s 1 slideInFromBottom;
 }
 
 .card {
