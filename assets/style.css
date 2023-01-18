@@ -381,6 +381,7 @@ input[type=submit]:hover {
   display: grid;
   grid-auto-flow: column;
   justify-content: space-evenly;
+  margin-bottom: 20px;
 } 
 
 ul {
